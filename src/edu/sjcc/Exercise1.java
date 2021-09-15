@@ -111,36 +111,36 @@ public class Exercise1 {
 		append(1);
 		append(-1);// append null element into string array
 		displayNumbers();
-		// Search 
+		// Search
 		System.out.println("-------SEARCH-----------");
 		System.out.println("4 is at index: " + linearSearch(4));
 		// update
 		System.out.println("-------UPDATE-----------");
 		System.out.println(update(4, 5));
 		displayNumbers();
-		
-		//delete
+
+		// delete
 		System.out.println("-------DELETE SHIFT-----------");
-        System.out.println(deleteShift(6));
-        System.out.println(deleteShift(7));
-        displayNumbers();
-        
-        //insert
-        System.out.println("-------INSERT-----------");
-        append(20);
-        insertFrontNoShift(50);
-        displayNumbers();
-        
-        //delete
-        System.out.println("-------DELETE MOVE-----------");
-        System.out.println();
-        System.out.println(deleteMove(5));
-        displayNumbers();
-        
-        //Insert front
-        System.out.println("-------INSERT FRONT-----------");
-        insertFront(1);
-        displayNumbers();
+		System.out.println(deleteShift(6));
+		System.out.println(deleteShift(7));
+		displayNumbers();
+
+		// insert
+		System.out.println("-------INSERT-----------");
+		append(20);
+		insertFrontNoShift(50);
+		displayNumbers();
+
+		// delete
+		System.out.println("-------DELETE MOVE-----------");
+		System.out.println();
+		System.out.println(deleteMove(5));
+		displayNumbers();
+
+		// Insert front
+		System.out.println("-------INSERT FRONT-----------");
+		insertFront(1);
+		displayNumbers();
 	}
 
 }
