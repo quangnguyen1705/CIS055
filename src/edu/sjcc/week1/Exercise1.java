@@ -1,4 +1,4 @@
-package edu.sjcc;
+package edu.sjcc.week1;
 
 public class Exercise1 {
 
