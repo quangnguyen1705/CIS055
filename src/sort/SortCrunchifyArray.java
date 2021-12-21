@@ -44,8 +44,9 @@ public class SortCrunchifyArray {
 
 					minObj = innerObj;
 				}
+			
 			crunchifySwap(outerObj, minObj); // swap an object
-
+			System.out.println("Swap " + outerObj + " and " +minObj);
 			// Let's print array after each iteration
 			log("After pass " + counter);
 			counter++;

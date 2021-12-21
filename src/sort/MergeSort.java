@@ -24,11 +24,9 @@ public class MergeSort {
 			}
 		}
 		while (l < left_size) {
-			//System.out.println("Left array is: " + Arrays.toString(left_arr));
 			arr[i++] = left_arr[l++];
 		}
 		while (r < right_size) {
-			//System.out.println("Right array is: " + Arrays.toString(right_arr));
 			arr[i++] = right_arr[r++];
 		}
 
